@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <title>Workshop 2</title>
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
@@ -15,11 +15,11 @@
       </figure>
       <nav class="navbar">
         <ul class="navbar__items">
-          <li class="navbar__item">
+          <li id="features" class="navbar__item">
             <a class="navbar__link">Features</a>
             <img src="./images/icon-arrow-down.svg" alt="">
           </li>
-          <li class="navbar__item">
+          <li id="company" class="navbar__item">
             <a class="navbar__link">Company</a>
             <img src="./images/icon-arrow-down.svg" alt="">
           </li>
@@ -84,17 +84,18 @@
     </ul>
   </div>
   <div class="modal__company">
-    <ul class="modal__features--items">
-      <li class="modal__features--item">
-        <a class="modal__features--links">History</a>
+    <ul class="modal__company--items">
+      <li class="modal__company--item">
+        <a class="modal__company--links">History</a>
       </li>
-      <li class="modal__features--item">
-        <a class="modal__features--links">Calendar</a>
+      <li class="modal__company--item">
+        <a class="modal__company--links">Our Team</a>
       </li>
-      <li class="modal__features--item">
-        <a class="modal__features--links">Reminders</a>
+      <li class="modal__company--item">
+        <a class="modal__company--links">Blog</a>
       </li>
     </ul>
   </div>
+  <script src="./js/actionsIndex.js"></script>
 </body>
 </html>

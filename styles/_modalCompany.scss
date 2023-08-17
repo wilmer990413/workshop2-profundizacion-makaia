@@ -1,10 +1,10 @@
 @use 'mixins-modal';
 @import 'variables';
 
-.modal__features{
+.modal__company{
     @include mixins-modal.modal;
-    width: 10%;
-    left: 10.5%;
+    width: 6%;
+    left: 25%;
     top: 7%;
     &--items {
         @include mixins-modal.items;

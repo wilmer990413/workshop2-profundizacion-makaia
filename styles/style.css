@@ -3,6 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swa");
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swa");
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swa");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swa");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swa");
 .navbar {
   width: 65%;
 }
@@ -136,15 +138,15 @@
 }
 
 .modal__features {
-  display: flex;
+  display: none;
   position: absolute;
-  top: 5%;
-  left: 10.5%;
-  width: 10%;
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
   padding: 2% 1% 1% 2%;
+  width: 10%;
+  left: 10.5%;
+  top: 7%;
 }
 .modal__features--items {
   list-style: none;
@@ -162,6 +164,38 @@
   margin-right: 20px;
 }
 .modal__features--item:hover {
+  cursor: pointer;
+  color: hsl(0, 0%, 8%);
+  font-weight: 600;
+}
+
+.modal__company {
+  display: none;
+  position: absolute;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 2% 1% 1% 2%;
+  width: 6%;
+  left: 25%;
+  top: 7%;
+}
+.modal__company--items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.modal__company--links {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+}
+.modal__company--item {
+  padding-bottom: 5%;
+}
+.modal__company--item img {
+  margin-right: 20px;
+}
+.modal__company--item:hover {
   cursor: pointer;
   color: hsl(0, 0%, 8%);
   font-weight: 600;

@@ -1,0 +1,33 @@
+@import 'variables';
+
+@mixin modal {
+    display: none;
+    position: absolute;
+    background-color: $Modal-White;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px $Modal-Black;
+    padding: 2% 1% 1% 2%;
+}
+
+@mixin items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+@mixin links {
+    text-decoration: none;
+    color: $Medium-Gray;
+}
+
+@mixin item {
+    padding-bottom: 5%;
+    img {
+        margin-right: 20px;
+    }
+    &:hover{
+        cursor: pointer;
+        color: $Almost-Black;
+        font-weight: 600;
+    }
+}
