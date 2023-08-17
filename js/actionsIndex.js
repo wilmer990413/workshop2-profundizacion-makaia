@@ -18,6 +18,8 @@ function changeImagen(){
         document.querySelector('.section__image--figure').querySelector('img').src = './images/image-hero-desktop.png';
     }else{
         document.querySelector('.section__image--figure').querySelector('img').src = './images/image-hero-mobile.png';
+        document.querySelector('.modal__company').style.display = 'none';
+        document.querySelector('.modal__features').style.display = 'none';
     }
 }
 
