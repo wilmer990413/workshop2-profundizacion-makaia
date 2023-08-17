@@ -5,6 +5,9 @@
     width: 20%;
     align-items: center;
     justify-content: space-around;
+    @media (max-width: 900px) {
+        width: 25%;
+    }
     &__login{
         text-decoration: none;
         color: $Medium-Gray;
@@ -27,5 +30,8 @@
             border: 2px solid $Almost-Black;
             cursor: pointer;
         }
+    }
+    @media (max-width: 700px) {
+        display: none;
     }
 }

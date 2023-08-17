@@ -15,6 +15,11 @@
   display: flex;
   justify-content: space-around;
 }
+@media (max-width: 1200px) {
+  .navbar__items {
+    width: 90%;
+  }
+}
 .navbar__link {
   text-decoration: none;
   padding-right: 10%;
@@ -29,12 +34,22 @@
   color: hsl(0, 0%, 8%);
   font-weight: 600;
 }
+@media (max-width: 700px) {
+  .navbar {
+    display: none;
+  }
+}
 
 .buttons {
   display: flex;
   width: 20%;
   align-items: center;
   justify-content: space-around;
+}
+@media (max-width: 900px) {
+  .buttons {
+    width: 25%;
+  }
 }
 .buttons__login {
   text-decoration: none;
@@ -59,6 +74,11 @@
   border: 2px solid hsl(0, 0%, 8%);
   cursor: pointer;
 }
+@media (max-width: 700px) {
+  .buttons {
+    display: none;
+  }
+}
 
 .header, .header__logo {
   display: flex;
@@ -76,6 +96,26 @@
   height: 100%;
   margin: 0;
 }
+@media (max-width: 700px) {
+  .header__logo {
+    padding-top: 5%;
+    width: 30%;
+  }
+}
+.header__menu {
+  display: none;
+}
+@media (max-width: 700px) {
+  .header__menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+  }
+  .header__menu:hover {
+    cursor: pointer;
+  }
+}
 
 .section {
   display: flex;
@@ -84,13 +124,31 @@
   width: 100%;
   padding-top: 2%;
 }
+@media (max-width: 700px) {
+  .section {
+    flex-direction: column-reverse;
+  }
+}
 .section__description {
   width: 40%;
+}
+@media (max-width: 700px) {
+  .section__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
 }
 .section__description--title {
   font-size: 500%;
   font-weight: 900;
   margin-bottom: 10%;
+}
+@media (max-width: 700px) {
+  .section__description--title {
+    font-size: 200%;
+  }
 }
 .section__description--paragraph {
   color: hsl(0, 0%, 41%);
@@ -98,6 +156,12 @@
   margin-right: 18%;
   text-align: justify;
   line-height: 1.5;
+}
+@media (max-width: 700px) {
+  .section__description--paragraph {
+    text-align: center;
+    margin: 0;
+  }
 }
 .section__description--button {
   margin-top: 5%;
@@ -121,11 +185,31 @@
   align-items: center;
   justify-content: space-between;
 }
+@media (max-width: 700px) {
+  .section__description--images {
+    width: 100%;
+  }
+}
 .section__description--figure {
   margin: 0;
 }
+@media (max-width: 700px) {
+  .section__description--figure {
+    width: 20%;
+  }
+  .section__description--figure img {
+    width: 100%;
+    height: 100%;
+  }
+}
 .section__image {
   width: 35%;
+}
+@media (max-width: 700px) {
+  .section__image {
+    width: 100%;
+    margin-top: 5%;
+  }
 }
 .section__image--figure {
   width: 100%;

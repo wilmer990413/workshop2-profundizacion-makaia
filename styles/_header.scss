@@ -15,5 +15,21 @@
             height: 100%;
             margin: 0;
         }
+        @media (max-width: 700px) {
+            padding-top: 5%;
+            width: 30%;
+        }
+    }
+    &__menu{
+        @media (max-width: 700px) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 10%;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        display: none;
     }
 }

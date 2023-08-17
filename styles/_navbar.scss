@@ -8,11 +8,14 @@
         list-style: none;
         display: flex;
         justify-content: space-around;
+        @media (max-width: 1200px) {
+            width: 90%;
+        } 
     }
     &__link {
         text-decoration: none;
         padding-right: 10%;
-        color: $Medium-Gray;
+        color: $Medium-Gray;  
     }
     &__item{
         display: flex;
@@ -23,4 +26,7 @@
             font-weight: 600;
         }
     }
+    @media (max-width: 700px) {
+        display: none;
+    } 
 }

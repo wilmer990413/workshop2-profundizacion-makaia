@@ -10,3 +10,15 @@ function hideOrNotHideModal(id,modal){
         document.querySelector(modal).style.display = 'flex';
     }
 }
+
+window.addEventListener('resize', changeImagen);
+
+function changeImagen(){
+    if (window.innerWidth > 700) {
+        document.querySelector('.section__image--figure').querySelector('img').src = './images/image-hero-desktop.png';
+    }else{
+        document.querySelector('.section__image--figure').querySelector('img').src = './images/image-hero-mobile.png';
+    }
+}
+
+changeImagen();
