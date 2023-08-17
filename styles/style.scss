@@ -1,0 +1,14 @@
+@use 'header';
+@use 'section';
+@use 'modalFeatures';
+@import 'variables';
+
+body, html {
+    position: relative;
+    background-color: $Almost-White;
+    font-family: $Font;
+}
+
+.main__container{
+    margin: 2%;
+}

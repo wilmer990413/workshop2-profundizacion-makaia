@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swa");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swa");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swa");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swa");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swa");
+.navbar {
+  width: 65%;
+}
+.navbar__items {
+  width: 50%;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.navbar__link {
+  text-decoration: none;
+  padding-right: 10%;
+  color: hsl(0, 0%, 41%);
+}
+.navbar__item {
+  display: flex;
+  align-items: center;
+}
+.navbar__item:hover {
+  cursor: pointer;
+  color: hsl(0, 0%, 8%);
+  font-weight: 600;
+}
+
+.buttons {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  justify-content: space-around;
+}
+.buttons__login {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+}
+.buttons__login:hover {
+  color: hsl(0, 0%, 8%);
+  font-weight: 600;
+}
+.buttons__register {
+  padding: 5% 10% 5% 10%;
+  font-family: Epilogue;
+  color: hsl(0, 0%, 41%);
+  background-color: hsl(0, 0%, 98%);
+  border-radius: 15px;
+  font-size: 100%;
+  border: 1px solid hsl(0, 0%, 41%);
+}
+.buttons__register:hover {
+  color: hsl(0, 0%, 8%);
+  font-weight: 600;
+  border: 2px solid hsl(0, 0%, 8%);
+  cursor: pointer;
+}
+
+.header, .header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  width: 7%;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin: 0;
+}
+.header__logo--image {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 2%;
+}
+.section__description {
+  width: 40%;
+}
+.section__description--title {
+  font-size: 500%;
+  font-weight: 900;
+  margin-bottom: 10%;
+}
+.section__description--paragraph {
+  color: hsl(0, 0%, 41%);
+  font-size: 110%;
+  margin-right: 18%;
+  text-align: justify;
+  line-height: 1.5;
+}
+.section__description--button {
+  margin-top: 5%;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+  font-family: Epilogue;
+  border-radius: 15px;
+  font-size: 100%;
+  padding: 3% 6% 3% 6%;
+  border: 1px solid hsl(0, 0%, 8%);
+}
+.section__description--button:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 8%);
+  font-weight: 900;
+}
+.section__description--images {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section__description--figure {
+  margin: 0;
+}
+.section__image {
+  width: 35%;
+}
+.section__image--figure {
+  width: 100%;
+  margin: 0;
+}
+.section__image--figure img {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modal__features {
+  display: flex;
+  position: absolute;
+  top: 5%;
+  left: 10.5%;
+  width: 10%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 2% 1% 1% 2%;
+}
+.modal__features--items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.modal__features--links {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+}
+.modal__features--item {
+  padding-bottom: 5%;
+}
+.modal__features--item img {
+  margin-right: 20px;
+}
+.modal__features--item:hover {
+  cursor: pointer;
+  color: hsl(0, 0%, 8%);
+  font-weight: 600;
+}
+
+body, html {
+  position: relative;
+  background-color: hsl(0, 0%, 98%);
+  font-family: Epilogue;
+}
+
+.main__container {
+  margin: 2%;
+}
+
+/*# sourceMappingURL=style.css.map */

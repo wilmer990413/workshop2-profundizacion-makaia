@@ -1,0 +1,33 @@
+@import 'variables';
+
+.modal__features{
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 10.5%;
+    width: 10%;
+    background-color: $Modal-White;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px $Modal-Black;
+    padding: 2% 1% 1% 2%;
+    &--items {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    &--links {
+        text-decoration: none;
+        color: $Medium-Gray;
+    }
+    &--item {
+        padding-bottom: 5%;
+        img {
+            margin-right: 20px;
+        }
+        &:hover{
+            cursor: pointer;
+            color: $Almost-Black;
+            font-weight: 600;
+        }
+    }
+}

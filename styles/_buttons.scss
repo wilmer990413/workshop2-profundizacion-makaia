@@ -1,0 +1,31 @@
+@import 'variables';
+
+.buttons {
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: space-around;
+    &__login{
+        text-decoration: none;
+        color: $Medium-Gray;
+        &:hover{
+            color: $Almost-Black;
+            font-weight: 600;
+        }
+    }
+    &__register{
+        padding: 5% 10% 5% 10%;
+        font-family: $Font;
+        color: $Medium-Gray;
+        background-color: $Almost-White;
+        border-radius: 15px;
+        font-size: 100%;
+        border: 1px solid $Medium-Gray;
+        &:hover{
+            color: $Almost-Black;
+            font-weight: 600;
+            border: 2px solid $Almost-Black;
+            cursor: pointer;
+        }
+    }
+}

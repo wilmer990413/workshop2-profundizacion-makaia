@@ -1,0 +1,61 @@
+@import 'variables';
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 2%;
+    &__description{
+        width: 40%;
+        &--title{
+            font-size: 500%;
+            font-weight: 900;
+            margin-bottom: 10%;
+        }
+        &--paragraph{
+            color: $Medium-Gray;
+            font-size: 110%;
+            margin-right: 18%;
+            text-align: justify;
+            line-height: 1.5;
+        }
+        &--button{
+            margin-top: 5%;
+            background-color: $Almost-Black;
+            color: $Almost-White;
+            font-family: $Font;
+            border-radius: 15px;
+            font-size: 100%;
+            padding: 3% 6% 3% 6%;
+            border: 1px solid $Almost-Black;
+            &:hover{
+                cursor: pointer;
+                background-color: $Almost-White;
+                color: $Almost-Black;
+                font-weight: 900;
+            }
+        }
+        &--images{
+            margin-top: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &--figure{
+            margin: 0;
+        }
+    }
+    &__image{
+        width: 35%;
+        &--figure{
+            width: 100%;
+            margin: 0;
+            img {
+                margin: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
